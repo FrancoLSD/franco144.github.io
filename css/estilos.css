@@ -1,0 +1,445 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+   background-color: slategrey;
+}
+
+header{
+    width: 100%;
+    height: 70px;
+    margin: auto;
+    height: 70px;
+    border: 1px solid white;
+    
+}
+
+.submenu1, .submenu2{
+    display: none ;
+}
+#mostrar-menu,#esconder-menu,#check{
+    display: none;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+
+ul{
+    list-style: none;
+}
+
+.navegador{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+    padding: 20px 0;
+    background-color: slategrey;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    
+}
+
+.navegador ul {
+    display: flex;
+    
+    
+}
+
+.navegador ul li{
+    padding-right: 40px;
+    
+    
+}
+
+.navegador ul li a{
+    transition: color .3s;
+}
+.navegador ul li a:hover{
+    color: wheat;
+}
+
+
+
+.titulo{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 20px;
+    color: black;
+    margin-left: 3%;
+    
+    transition: color .4s;
+}
+
+.titulo:hover{
+    color: wheat;
+ 
+}
+
+section{
+    width: 100%;
+    
+    
+}
+
+.articulo1{
+    width: 100%;
+    height: 600px;
+    background: url('/img/PROGRAMACIÓN.png') no-repeat center center/cover;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-end;
+    padding-bottom: 50px;
+    border-bottom: 1px solid wheat;
+    
+}
+
+
+.articulo1 h1{
+    font-size: 40px;
+}
+
+.articulo1 p{
+    font-size: 20px;
+    
+}
+
+.articulo2{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.texto1{
+    
+    width: 90%;
+    font-size: x-large;
+    text-align: left;
+    margin: 50px auto;
+
+}
+
+.texto2{
+   
+    width: 90%;
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 50px;
+    color: wheat;
+}
+
+.texto3{
+    
+    width: 80%;
+    font-size: x-large;
+    text-align: left;
+    margin: 20px auto;
+}
+
+.letraspro{
+    width: 70%;
+    padding: 20px 0;  
+    display: block;
+    margin: auto;
+    
+}
+
+.cursos{
+    display: flex;
+    
+}
+
+.cursos img{
+    width: 100%;
+    height: 300px;
+    padding: 0 20px;
+   
+}
+
+.texto4{
+    font-size: medium;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 20px;
+    
+}
+
+.btn{
+    font-size: x-large;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    display: inline-block;
+    padding: 10px 20px;
+    margin-left: 33%;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    border: 1px solid black;
+    border-radius: 30px;
+     transition: all 0.4s;
+
+}
+
+.btn:hover{
+    background-color: silver;
+    
+}
+
+#contacto{
+    width: 100%;
+    height: 500px;
+    background-color: wheat;
+    border: 1px solid black;
+}
+
+#contacto h3{
+    padding-top: 30px;
+    font-size: xx-large;
+    display: block;
+    text-align: center;
+}
+
+#contacto form{
+    width: 80%;
+    margin: 25px auto;
+}
+
+#datos-form{
+    display: flex;
+}
+
+#datos-form div{
+    padding: 0 10px;
+    flex: 1;
+}
+
+#datos-form label,
+#mensaje label{
+    display: block;
+    margin-bottom: 10px;
+}
+
+form input,
+form textarea{
+    border-radius: 10px;
+    border: 2px solid slategrey;
+    outline: 0;
+    padding: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+#datos-form input{
+    width: 50%;
+    height: 35px;
+}
+form textarea{
+    width: 100%;
+    height: 250px;
+}
+
+#enviar-form a{
+    width: 100%;
+    display: inline-block;
+    text-align: center;
+    padding: 10px 25px;
+    margin-top: 5px;
+    border: 1px solid slategrey;
+    transition: all 0.4s;
+}
+
+#enviar-form a:hover{
+    background-color: teal;
+}
+
+#enviar.form a:hover{
+    background-color: wheat;
+}
+
+.sobre-nosotros h1,h2{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 40px;
+    text-align: center;
+}
+
+.img4{
+    width: 70%;
+    height: auto;
+    display: block;
+    margin: 10px auto;
+    
+}
+
+.sobre-nosotros p{
+    font-size: medium;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+    margin: 20px 10px;
+    padding: 10px 0;
+    border: 2px dashed white;
+    
+   
+    
+}
+
+.titulos{
+    height: 60px;
+    width: 100%;
+    font-size: xx-large;
+    margin-top: 15px;
+
+}
+
+#java-lvl1 p{
+    width: auto;
+    height: auto;
+    font-size: medium;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0 20%;
+    padding: 20px;
+    background-color: white;
+    border: 1px solid black;
+    
+}
+
+.titulos,#java-lvl1 p,#avanzado p{
+    text-align: center;
+    display: inline-block;
+}
+
+
+.img5{
+    width: 80%;
+    display: flex;
+    margin: 20px auto;
+    border-radius: 10px;
+}
+
+#avanzado p{
+    width: auto;
+    height: auto;
+    font-size: medium;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0 20%;
+    padding: 20px;
+    background-color: white;
+    border: 1px solid black;
+}
+
+.img6{
+    width: 80%;
+    display: flex;
+    margin: 20px auto;
+    border-radius: 10px;
+}
+
+
+
+
+
+footer{
+    width: 100%;
+    height: 40px;
+    background: linear-gradient(to right,white 20%, black);
+    padding-left: 10px;
+    display: flex;
+    align-items: center;
+}
+
+footer a{
+    display: flex;
+    text-align: center;
+    color: rgb(149, 167, 185);
+    transition: all 0.4s;
+}
+
+footer p{
+    position: absolute;
+    right: 10px;
+    color: white;
+   
+    
+}
+footer a:hover{
+    color: rgb(55, 62, 70);
+}
+
+@media (max-width: 768px){
+    .comienzaYa{
+        color: black;
+    } 
+    
+    .titulo{
+        left: 10%;
+    }
+
+    .cursos{
+        display: block;
+    }
+
+    .texto1,.texto3,.texto4{
+        font-size: medium;
+    }
+
+    #mostrar-menu,#esconder-menu{
+        position: absolute;
+        display: block;
+        font-size: 30px;
+        cursor: pointer;
+    }
+
+    .titulo, .sobre-nosotros{
+        display: none;
+    }
+
+    #mostrar-menu{
+        top: 20px;
+        right: 10px;
+        
+    }
+    #esconder-menu{
+        top: 0;
+        right: 0;
+    }
+
+    nav{
+        position: fixed;
+        width: 100%;
+        height: 100vh;
+        background: slategrey;
+        right: -100%;
+        top: 0;
+        text-align: center;
+        padding: 100px 0;
+        z-index: 100;
+        transition: all 0.8s;
+    }
+
+    .sobre-nosotros,.submenu1.submenu2{
+        display: inline-block;
+        position: absolute;
+        padding: 20px;
+        top: 0;
+    }
+
+    .sobre-nosotros{
+        top: 47%;
+        left: 50%;
+    }
+    .submenu1{
+        top: 100px;
+    }
+    .submenu2{
+        left: 100%;
+    }
+
+#check:checked ~ .navegador{
+    right: 0;
+}
+    
+}
+
+.rss{
+    height: 30px;
+    width: 1,5%;
+}

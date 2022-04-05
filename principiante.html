@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/estilos.css">
+    <title>Principiante</title>
+</head>
+<body>
+    <header>
+        
+        <input type="checkbox" id="check">
+            <label for="check" id="mostrar-menu">&#8801</label>
+        <nav class="navegador">
+            <a class="titulo" href="index.html">ProgramacionConJava</a>
+            <ul>
+                <li><a href="sobrenosotros.html" class="sobre-nosotros">Sobre nosotros</a></li>
+                <li><a href="principiante.html" class="submenu1">Curso Principiante</a></li>
+                <li><a href="avanzado.html" class="submenu2 ">Curso Avanzado</a></li>
+            </ul>
+            <label for="check" id="esconder-menu">&#215</label>
+        </nav>
+    </header>
+
+    <section id="java-lvl1">
+        <article>
+            <h1 class="titulos">¿Qué son las clases en Java?</h1>
+            <p>Una clase en lenguaje de programación Java se puede entender como un prototipo que define las variables (lo que lo diferencia de otras) y los métodos (las acciones que peude realizar) comunes a un cierto tipo de instancias.
+            En java las clases son las matrices de las que luego se pueden crear múltiples instancias del mismo tipo. La clase define las variables y los métodos comunes a las instancias de ese tipo (el tipo de la clase creada), pero luego, cada instancia de esta clase tendrá sus propios valores y compartirán las mismas funciones.</p>
+        </article>
+        <article>
+            <h1 class="titulos">¿Qué son los objetos en Java?</h1>
+            <p>En el ámbito del lenguaje de programación Java, un objeto es básicamente una instancia de una clase (las instancias de las que hablábamos hace un momento).
+            Lo más importante de los objetos en Java es que permiten tener un control total sobre "quién" o "qué" puede acceder a sus miembros, es decir, los objetos pueden tener miembros públicos a los que podrán acceder otros objetos o miembros privados a los que sólo puede acceder él. Estos miembros pueden ser tanto variables como funciones.
+            El gran beneficio de todo esto es la encapsulación. En java el código fuente de un objeto puede escribirse y mantenerse de forma independiente a los otros objetos contenidos en la aplicación
+            </p>
+            <h1 class="titulos">¿Qué son los mensajes en Java?</h1>
+            <p>
+                Para poder crear una aplicación Java que sea un tanto robusta, es muy probable que necesitemos más de un objeto (más de una instancia de una clase), y probablemente algunos de estos objetos no deben estar aislados unos de otros, pues bien, para comunicarse, esos objetos se envían mensajes entre sí.
+                
+                Los mensajes son simples llamadas a las funciones o métodos del objeto en particular con el cual se quiere comunicar para solicitarle que ejecute alguna "accion" según sus métodos y/o atributos.</p>
+
+            <h1 class="titulos">¿Qué es la herencia en Java?</h1>
+            <p>
+                ¿Qué significa esto de la herencia?, ¿quién hereda qué?, bueno calma, no entres en pánico, esto sólo significa que en Java puedes crear una clase partiendo de otra que ya exista.
+                
+                Es decir, puedes crear una clase a través de una clase existente, y ésta clase tendrá todas las variables y los métodos de su "superclase", y además se le podrán añadir otras variables y métodos propios.
+                
+                Se llama "Superclase" a aquella clase de la cual desciende una clase, más adelante veremos un poco más de esto al detalle.
+                
+                Vamos a ver un pequeño ejemplo basado en la fábrica de galletas que hemos estado tratando a lo largo de este artículo. Vamos a crear una pequeña clase llamada "Galleta" que contendrá los diferentes atributos.</p>
+                <img src="img/clase.png" alt="ejemploclase.png" class="img5">
+        </article>
+    </section>
+
+
+
+    <footer>
+        <a href="index.html">Inicio</a> 
+        <p>&copy; By Franco Solís</p>
+     </footer>
+</body>
+</html>

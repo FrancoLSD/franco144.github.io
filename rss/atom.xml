@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+<title>AprendeEnJava</title>
+<link></link>
+<description>En esta página web aprenderás a programar ya seas un principiante o alguien ya experimentado</description>
+
+<entry>
+    <title>El tiempo en Santa cruz de Tenrife</title>
+    <link>https://www.tiempo.es/santa_cruz_de_tenerife-santa_cruz_de_tenerife-es0st0038.html</link>
+    <description>Aquí podrás ver el timepo que hace en Santa cruz de Tenerife en tiempo real.</description>
+</entry>
+
+<entry>
+    <title>Curso De Java Básico</title>
+    <link></link>
+    <description>Aqui te enseñaremos a programar en Java desde 0 de la manera más sencilla posible, a que esperas!!!.</description>
+</entry>
+
+<entry>
+    <title>PcComponentes</title>
+    <link>https://www.pccomponentes.com/?gclid=EAIaIQobChMItZKM3JT99gIV14jVCh2ojwqsEAAYASAAEgIS7vD_BwE</link>
+    <description>Aquí tienes la mejor tienda de componentes online con los mejores precios actualmente.</description>
+</entry>
